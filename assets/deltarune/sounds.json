@@ -3,12 +3,12 @@
     "music.cliffs": { "sounds": [ "deltarune:music/cliffs" ] },
     "music.vs_lancer": { "sounds": [ "deltarune:music/vs_lancer" ] },
     "music.lancer": { "sounds": [ "deltarune:music/lancer" ] },
-    "music.the_chase": { "sounds": [ "deltarune:music/the_chase" ] },
+    "music.chase": { "sounds": [ "deltarune:music/chase" ] },
     "music.another_him": { "sounds": [ "deltarune:music/another_him" ] },
-    "music.the_legend": { "sounds": [ "deltarune:music/the_legend" ] },
-    "music.the_legend_slowed": { "sounds": [ "deltarune:music/the_legend_slowed" ] },
-     "music.lantern": { "sounds": [ "deltarune:music/lantern" ] },
-      "music.field_of_hopes": { "sounds": [ "deltarune:music/field_of_hopes" ] },
+    "music.legend": { "sounds": [ "deltarune:music/legend" ] },
+    "music.lantern": { "sounds": [ "deltarune:music/lantern" ] },
+    "music.field_of_hopes": { "sounds": [ "deltarune:music/field_of_hopes" ] },
+    "music.holy": { "sounds": [ "deltarune:music/the_holy" ] },
 
     "effects.wobbler": { "sounds": [ "deltarune:effects/wobbler" ] },
 

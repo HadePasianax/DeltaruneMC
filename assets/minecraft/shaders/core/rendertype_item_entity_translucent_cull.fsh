@@ -23,37 +23,12 @@ void main() {
     if (color.a < 0.1) {
         discard;
     }
-    if (color.a == 209.0/255.0) { 
-        shadingInfluence = 0.0;
-        // Used by:
-        //  Magnesis magnet
-    }
-    if (color.a == 130.0/255.0) {
-        shadingInfluence = 0.0;
-        // Used by:
-        //  Magnesis select orb (outer layer)
-    }
     if (color.a == 252.0/255.0) {
         shadingInfluence = 0.0;
         color.a = 1.0;
         // Used by:
         //  Everything that should be fully
         //  emissive and fully opaque
-    }
-    if (color.a == 251.0/255.0) { // Semi-emissive
-        shadingInfluence = 0.75;
-        color.a = 1.0;
-    }
-    if (color.a == 250.0/255.0) { // Semi-emissive
-        shadingInfluence = 0.50;
-        color.a = 1.0;
-    }
-    if (color.a == 249.0/255.0) { // Semi-emissive
-        shadingInfluence = 0.25;
-        color.a = 1.0;
-    }
-    if (color.a == 199.0/255.0) { // Semi-emissive (78% in photoshop)
-        shadingInfluence = 0.0;
     }
     color = mix(color, color * vertexColor, shadingInfluence);
     fragColor = linear_fog(color, vertexDistance, FogStart, FogEnd, FogColor);
