@@ -1,7 +1,7 @@
-# Voxels Deltarune in Minecraft Resource Pack
+# Deltarune in Minecraft Resource Pack
 
 ## THE DELTARUNE IN MINECRAFT PROJECT
-led by Voxel, this project aims to faithfully recreate all of Deltarune Chapter 1 within the confines of vanilla Minecraft. no mods.
+Formerly led by Voxel, now by Hade, this project aims to faithfully recreate all of Deltarune Chapter 1 within the confines of vanilla Minecraft. no mods.
 This git page stores all the assets for this project within a resource pack, which will be integrated into the final world download. Any plans to recreate future chapters are currently uncertain.
 
 
@@ -21,7 +21,7 @@ Once you have git installed, navigate to your resource packs folder in the follo
 ```
 Once in your resource packs folder, run the following command. On windows, you can easily do this by pasting it in the directory bar at the top of file explorer and pressing enter:
 ```
-git clone https://github.com/TheVoxxel/Voxels-Deltarune-in-Minecraft-Resource-Pack.git
+git clone https://github.com/HadePasianax/DeltaruneMC.git
 ```
 This should install the resource pack, and it should be visible in-game afterwards.
 
@@ -31,7 +31,7 @@ After installing the resource pack, you may need to occasionally update it when 
 
 First, navigate to your resource pack folder, which should be located in the following directory:
 ```
-%appdata#\.minecraft\resourcepacks\Voxels-Deltarune-in-Minecraft-Resource-Pack
+%appdata#\.minecraft\resourcepacks\DeltaruneMC
 ```
 Once in the main folder, run the following command:
 ```
